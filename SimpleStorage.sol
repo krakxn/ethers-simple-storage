@@ -1,20 +1,19 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.8;
-
-// pragma solidity ^0.8.0;
-// pragma solidity >=0.8.0 <0.9.0;
+pragma solidity ^0.8.0; // Version should be 0.8.0 and above
 
 contract SimpleStorage {
     uint256 favoriteNumber;
-
+    
+    // Creates People object
     struct People {
         uint256 favoriteNumber;
         string name;
     }
-    // uint256[] public anArray;
-    People[] public people;
 
+    People[] public people; // Array of People objects
+    
+    // Dictionary nameToFavouriteNumber with string as key
     mapping(string => uint256) public nameToFavoriteNumber;
 
     function store(uint256 _favoriteNumber) public {
