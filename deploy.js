@@ -1,3 +1,4 @@
+// Used to deploy contract
 const ethers = require("ethers")
 const fs = require("fs-extra")
 require("dotenv").config()
