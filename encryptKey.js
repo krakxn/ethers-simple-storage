@@ -1,3 +1,4 @@
+// Used to encrypt private key
 const ethers = require("ethers");
 const fs = require("fs-extra");
 
