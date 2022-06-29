@@ -1,4 +1,5 @@
-# (Ethers.js) SimpleStorage:
+## (Ethers.js) SimpleStorage:
 
-***Private key is encrypted.***
-***Current network: Görli test network***
+>Current network: Görli test network (via Alchemy)
+>Görli test network faucet: https://goerlifaucet.com/
+>*Private key is encrypted.*
