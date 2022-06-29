@@ -1,2 +1,2 @@
-# Ethers.js Simple Storage:
+# Ethers.js SimpleStorage:
 ***Private key is encrypted.***
