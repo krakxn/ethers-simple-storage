@@ -1,4 +1,4 @@
-# **(Ethers.js) SimpleStorage:**
+# SimpleStorage - Ethers:
 
 This project demonstrates a basic use case with Ethers. It comes with a sample contract, and sample scripts to deploy the contract and encrypt the private key.
 
